@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "nostalgia-features-beta",
+	"id": "nostalgia-features-alpha",
 	"version": "${version}",
-	"name": "Nostalgia Features: Beta",
-	"description": "Removes some generation features that aren't from Beta.",
+	"name": "Nostalgia Features: Alpha",
+	"description": "Removes some generation features that aren't from Alpha 1.1.2",
 	"authors": [
 		"herrobriam"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/nostalgia-features-beta",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/nostalgia-features-alpha",
+		"sources": "https://github.com/herrobriam/nostalgia-features-alpha"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/nostalgia-features-beta/icon.png",
+	"icon": "assets/nostalgia-features-alpha/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.herrobriam.nostalgiafeaturesbeta.NostalgiaFeaturesBeta"
+			"net.herrobriam.nostalgiafeaturesalpha.NostalgiaFeaturesBeta"
 		],
 		"fabric-datagen": [
-			"net.herrobriam.nostalgiafeaturesbeta.NostalgiaFeaturesBetaDataGenerator"
+			"net.herrobriam.nostalgiafeaturesalpha.NostalgiaFeaturesBetaDataGenerator"
 		]
 	},
 	"mixins": [
-		"nostalgia-features-beta.mixins.json"
+		"nostalgia-features-alpha.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
